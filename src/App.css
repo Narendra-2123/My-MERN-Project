@@ -1,0 +1,33 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #FF7F50, #6A5ACD, #20B2AA);  /* Beautiful gradient colors */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.3); /* Slightly more transparent background */
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3); /* Larger shadow for depth */
+  backdrop-filter: blur(10px); /* Add blur effect for a soft, frosted look */
+}
+
+.heading {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #FFFAF0; /* Soft light color for the heading */
+}
+
+.description {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #E0FFFF; /* Light cyan for description text */
+}
